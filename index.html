@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether Report</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+       <p > <span id="heading"></span> Wether Report </p>
+    </header>
+    <div class="search">
+        <input id="city" class="searchBox" type="text" placeholder="Please enter city names from all over the world...">
+        <button id="searchBtn" onclick="fetchWetherReport()">Search</button>
+    </div>
+    <div id="load">
+        <!-- <div class="container">
+            <div class="inside-container">
+                <div class="city">Nagpur</div>
+                <div class="temp">Temperature</div>
+                <div class="wind-chill">Windchill</div>
+                <div class="humidity">Humidity</div>
+                <div class="pressure">Pressure</div>
+                <div class="wind-speed">Wind-Speed</div>
+                <div class="state">Madhya Pradesh</div>
+                <div class="country">Country</div>  
+            </div>    
+        </div> -->
+    </div>
+    <div class="modal" id="deleteModal">
+        <div class="modal-content">
+            <h2>Alert</h2>
+            <p>Invalid city name. Please try again later!</p>
+        </div>     
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
