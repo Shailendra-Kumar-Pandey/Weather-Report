@@ -1,7 +1,7 @@
 :root{
-    --cloudy: url("./Components/clouds.jpg");
-    --sunny: url("./Components/sunny.jpg");
-    --rainy: url("./Components/Thander.png");
+    --cloudy: url("../Components/clouds.jpg");
+    --sunny: url("../Components/sunny.jpg");
+    --rainy: url("../Components/Thander.png");
     --textColor : azure;
     --boxColor : rgba(0, 0, 0, 0.281);
     --boxBlackShadow : 0px 0px 20px 0px rgba(27, 27, 27, 0.582);
