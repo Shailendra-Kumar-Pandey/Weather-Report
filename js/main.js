@@ -40,13 +40,13 @@ function load(res) {
         let backImage = document.getElementById("backImage");
     if(res.current.condition.text === "Sunny" || res.current.condition.text ==="Clear"){
         document.body.style.backgroundImage = "url('../Components/sunny.jpg')";
-        backImage.style.backgroundImage = "url('./Components/sunny.jpg')";
+        backImage.style.backgroundImage = "url('../Components/sunny.jpg')";
     }else if(res.current.condition.text ==="Cloudy" || res.current.condition.text === "Partly cloudy"){
         document.body.style.backgroundImage = "url('../Components/clouds.jpg')";
-        backImage.style.backgroundImage = "url('./Components/clouds.jpg')";
+        backImage.style.backgroundImage = "url('../Components/clouds.jpg')";
     }else if(res.current.condition.text === "Light freezing rain" || res.current.condition.text === "Freezing drizzle" || res.current.condition.text === "Fog" || res.current.condition.text === "Freezing fog"){
         document.body.style.backgroundImage = "url('../Components/freezing.jpg')";
-        backImage.style.backgroundImage = "url('./Components/freezing.jpg')";
+        backImage.style.backgroundImage = "url('../Components/freezing.jpg')";
     }else if(res.current.condition.text === "Heavy rain" || res.current.condition.text === "Heavy rain at times" || res.current.condition.text === "Patchy rain possible"){
         document.body.style.backgroundImage = "url('../Components/Thander.png')";
         backImage.style.backgroundImage = "url('../Components/Thander.png')";
