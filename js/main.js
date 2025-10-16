@@ -34,7 +34,6 @@ function load(res) {
                                                         <div class="country">${res.location.country}</div>  
                                                     </div>    
                                                 </div>      
-    
                                     `
         // change background image according to weather condition
         let backImage = document.getElementById("backImage");
